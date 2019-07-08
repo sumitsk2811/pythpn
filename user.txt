@@ -1,0 +1,66 @@
+    1  ls
+   
+ 2  stat /videos
+  
+  3  stat /mnt
+
+    4  touch  file1
+    5  ls =1
+    6  ls -1
+    7  ls -i
+    8  rm /home/soft1
+    9  pwd
+   10  rm /home/rohitagarwal/soft1
+   11  touch file1
+   12  pwd
+   13  ln -s /home/rohitagarwal /home/soft1
+   14  ls -li /home
+   15  touch file2
+   16  pwd
+   17  ln -s /home/rohitagarwal /home/hard1
+   18  mkdir -p /var/sdf/sdf/re
+   19  ls
+   20  ls /var/
+   21  man mkdir
+   22  mkdir -p /{mahul,svd}/{S,a,d}
+   23  tuoch /mahul/{.d.f.g.h}
+   24  touch /mahul/{.d.f.g.h}
+   25  cd
+   26  useradd tom
+   27  man useradd
+   28  passwd rohitagarwal 
+   29  vim /etc/passwd
+   30  vim /etc/shadow
+   31  ls /home/
+   32  vim /etc/passwd
+   33  vim /etc/group
+   34  groupadd admin
+   35  vim /etc/group
+   36  vim /etc/gshadowA
+   37  vim /etc/group
+   38  useradd --help
+   39  useradd -d /var/a1 -c "this is failed" -g admin -p redhat -u 1234 harry
+   40  vim /etc/passwd
+   41  ls /var/a1/
+   42  ls -a /var/a1/
+   43  usermod -s /sbin/nologin harry
+   44  vim /etc/passwd
+   45  su - harry
+   46  usermod -s /bin/bash harry
+   47  su - harry
+   48  usermod --help
+   49  usermod -m -d /home/rough harry
+   50  ls /home/
+   51  groupadd hello
+   52  ls /var
+   53  usermod -G hello harry
+   54  vim /etc/passwd
+   55  vim /etc/groups
+   56  vim /etc/group
+   57  usermod -G tom harry
+   58  vim /etc/group
+   59  usermod -aG hello harry
+   60  vim /etc/group
+   61  vim /etc/shadow
+   62  history
+   63  history >> /home/rohitagarwal/Desktop/user.txt
